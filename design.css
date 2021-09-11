@@ -1,0 +1,52 @@
+.header{
+    font-size: 75px;
+    text-align: center;
+    background-image: linear-gradient(to right,red,cyan);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    font-family: 'Ubuntu', sans-serif;
+    /* transition: 5s; */
+}
+@keyframes header {
+    from{
+        background-image: linear-gradient(to right,purple,orange);
+        transform: rotate(0deg);
+    }
+    to{
+        background-image: linear-gradient(to right,red,cyan);
+        transform: rotate(360deg);
+    }
+}
+.question{
+    color: darkseagreen;
+}
+.description{
+    font-size: 19px;
+}
+.li{
+    font-size: 19px;
+}
+.download{
+    background-image: linear-gradient(to right, lightgreen, blue);
+    background-size: 100%;
+    border: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10%;
+    margin-left: 40%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.download:hover{
+    box-shadow: 1px 1px 10px black;
+    text-decoration: underline;
+    border-radius: 12px;
+}
+h3{
+    color: lightskyblue;
+}
