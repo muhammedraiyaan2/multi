@@ -3,4 +3,4 @@ This is a python package that can be used for multi purpose. This python package
 
 [open website link](https://muhammedraiyaan2.github.io/multi)
 # Contact
-If you want to contact us then mail to muhammedraiyaan2@gmail.com or you h=can visit our github profile [link](https://github.com/muhammedraiyaan2)
+If you want to contact us then mail to muhammedraiyaan2@gmail.com or you can visit our github profile [link](https://github.com/muhammedraiyaan2)
