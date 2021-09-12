@@ -41,11 +41,13 @@
     margin-left: 40%;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s;
 }
 .download:hover{
     box-shadow: 1px 1px 10px black;
     text-decoration: underline;
     border-radius: 12px;
+    transform: rotateY(60deg);
 }
 h3{
     color: lightskyblue;
