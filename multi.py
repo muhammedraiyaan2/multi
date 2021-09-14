@@ -56,7 +56,9 @@ def send(value):
     """This function return the value"""
     return value
 def get_joke():
-    """This function return a random joke"""
+    """This function return a random joke
+    Note: You have to install a package called pyjokes. Paste the command in the terminal
+    Command: pip install pyjokes"""
     return pyjokes.get_joke()
 def wikipedia_search(result,sentence):
     """This function search in wikipedia and get the results and return it to you.
